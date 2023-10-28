@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #2947A9;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+.container {
+  border: 1px solid red;
+  margin: auto;
+  max-width: 1486px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.header__logo {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.header__logo-title {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.nav__content {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav__link--contacts {
+  color: #F9995D;
+  font-weight: 600;
+}
